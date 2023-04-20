@@ -25,7 +25,7 @@ map.on('load', function () {
         type: 'circle',
         source: 'redbud',
         paint: {
-            'circle-color': '#de50c1',
+            'circle-color': '#a8324e',
             'circle-radius': 2,
             'circle-opacity': .8
         }
@@ -41,7 +41,7 @@ map.on('load', function () {
         type: 'circle',
         source: 'crabapple',
         paint: {
-            'circle-color': '#a8324e',
+            'circle-color': '#de50c1',
             'circle-radius': 2,
             'circle-opacity': .8
         }
