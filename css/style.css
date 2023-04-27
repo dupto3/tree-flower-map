@@ -34,14 +34,24 @@ body {
 #description {
     font-size: 14px;
     margin: 5px;
+    margin-bottom: 10px
+
 
 }
 
 #moreinfo {
     font-size: 14px;
     margin: 5px;
+    margin-bottom: 10px
 
 }
+
+#source {
+    font-size: 12px;
+    margin: 5px;
+    margin-top: 10px
+}
+
 #treeFilter {
     z-index: 999;
     position: absolute;
