@@ -4,7 +4,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v11',
     center: [0, 0],
-    zoom: 10,
+    zoom: 10.5,
     projection: 'globe',
     pitch: 0,
     center: [-74.00214, 40.71882]
@@ -75,6 +75,7 @@ map.on('load', function () {
             </h3>
             <p>
             <b>Scientific Name:</b> ${feature.properties.spc_latin}<br>
+            <b>Bloom Dates:</b> March-May<br>
             <b>Street Address:</b> ${feature.properties.address}<br>
             <b>Neighborhood:</b> ${feature.properties.nta_name}<br>
             <b>Borough:</b> ${feature.properties.boroname}
@@ -94,6 +95,7 @@ map.on('load', function () {
             </h3>
             <p>
             <b>Scientific Name:</b> ${feature.properties.spc_latin}<br>
+            <b>Bloom Dates:</b> April-May<br>
             <b>Street Address:</b> ${feature.properties.address}<br>
             <b>Neighborhood:</b> ${feature.properties.nta_name}<br>
             <b>Borough:</b> ${feature.properties.boroname}
@@ -113,6 +115,7 @@ map.on('load', function () {
             </h3>
             <p>
             <b>Scientific Name:</b> ${feature.properties.spc_latin}<br>
+            <b>Bloom Dates:</b> April-June<br>
             <b>Street Address:</b> ${feature.properties.address}<br>
             <b>Neighborhood:</b> ${feature.properties.nta_name}<br>
             <b>Borough:</b> ${feature.properties.boroname}
