@@ -4,10 +4,10 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v11',
     center: [0, 0],
-    zoom: 10.5,
+    zoom: 10.4,
     projection: 'globe',
     pitch: 0,
-    center: [-74.00214, 40.71882]
+    center: [-73.98, 40.7]
 });
 
 
