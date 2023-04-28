@@ -8,10 +8,11 @@ github repository: https://github.com/dupto3/tree-flower-map
 
 Data source: https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh
 
-Code sources:
-
-Filter menu:
-:
-
-
-
+### To do:
+- Update filter menu names
+- Add legend/colors to filter menu - how to display text instead of id?
+- Add details to popup instead of sidebar
+- On hover: circle increase in radius
+- On click: circle increase in radius & circle 100% opacity
+- Add reset
+- Search for your neighborhood?
