@@ -26,7 +26,7 @@ map.on('load', function () {
         source: 'redbud',
         paint: {
             'circle-color': '#a8324e',
-            'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 3, 15, 7],
+            'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 3, 15, 7], // circle radius increases with zoom
             'circle-opacity': .5
         }
     })
@@ -163,6 +163,7 @@ map.on('load', function () {
 map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
 // Create menu filter
+// Source: https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/
 
 map.on('idle', () => {
 
